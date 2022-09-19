@@ -1,4 +1,5 @@
 global:
+  slack_api_url_file: /etc/alertmanager/slack_api_url_file.txt
 
 route:
   receiver: 'slack'
